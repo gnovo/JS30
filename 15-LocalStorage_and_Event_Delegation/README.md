@@ -2,3 +2,5 @@
 
 # 15 - LocalStorage and Event Delegation
 keywords: localStorage, e.preventDefault().
+
+view demo [here](https://gnovo.github.io/JS30/15-LocalStorage_and_Event_Delegation/index.html)

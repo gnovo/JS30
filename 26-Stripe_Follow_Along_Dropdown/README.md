@@ -2,3 +2,5 @@
 
 # 26 - Stripe Follow Along Dropdown
 keywords: .
+
+view demo [here](https://gnovo.github.io/JS30/26-Stripe_Follow_Along_Dropdown/index.html)

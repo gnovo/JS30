@@ -2,3 +2,5 @@
 
 # 06 - Ajax Type Ahead
 keywords: change & keyup events, Promise: fetch, then(), json(), Array: filter(), map(), push(), join(), Regexp: match(), replace()
+
+view demo [here](https://gnovo.github.io/JS30/06-Ajax_Type_Ahead/index.html)

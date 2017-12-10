@@ -2,3 +2,5 @@
 
 # 11 - Custom HTML5 Video Player
 keywords: video.paused, video.currentTime, dataset of .data-attribute, parseFloat().
+
+view demo [here](https://gnovo.github.io/JS30/11-Custom_HTML5_Video_Player/index.html)

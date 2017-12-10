@@ -2,3 +2,5 @@
 
 # 10 - Hold Shift to Check Multiple Checkboxes
 keywords:
+
+view demo [here](https://gnovo.github.io/JS30/10-Hold_Shift_to_Check_Multiple_Checkboxes/index.html)

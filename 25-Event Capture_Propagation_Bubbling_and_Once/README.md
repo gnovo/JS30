@@ -2,3 +2,5 @@
 
 # 25 - Event Capture, Propagation, Bubbling and Once
 keywords: e.stopPropagation(), capture, once.
+
+view demo [here](https://gnovo.github.io/JS30/25-Event Capture_Propagation_Bubbling_and_Once/index.html)

@@ -2,3 +2,5 @@
 
 # 12 - Key Sequence Detection (KONAMI CODE)
 keywords: keyup, array.push(), array.join, array.includes().
+
+view demo [here](https://gnovo.github.io/JS30/12-Key_Sequence_Detection/index.html)

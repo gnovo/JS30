@@ -2,3 +2,5 @@
 
 # 23 - Speech Synthesis
 keywords: .
+
+view demo [here](https://gnovo.github.io/JS30/23-Speech_Synthesis/index.html)

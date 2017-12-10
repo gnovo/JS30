@@ -2,3 +2,5 @@
 
 # 13 - Slide in on Scroll
 keywords: window.scrollY, window.innerHeight, offsetTop.
+
+view demo [here](https://gnovo.github.io/JS30/13-Slide_in_on_Scroll/index.html)

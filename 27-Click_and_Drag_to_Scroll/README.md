@@ -2,3 +2,5 @@
 
 # 27 - Click and Drag to Scroll
 keywords: .
+
+view demo [here](https://gnovo.github.io/JS30/27-Click_and_Drag_to_Scroll/index.html)

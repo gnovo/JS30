@@ -2,3 +2,5 @@
 
 # 09 - Dev Tools Domination
 keywords: Attributes Modification on an element and bunch of console tricks.
+
+view demo [here](https://gnovo.github.io/JS30/09-Dev_Tools_Domination/index.html)

@@ -2,3 +2,5 @@
 
 # 28 - Video Speed Controller UI
 keywords: .
+
+view demo [here](https://gnovo.github.io/JS30/28-Video_Speed_Controller_UI/index.html)

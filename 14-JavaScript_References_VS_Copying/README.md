@@ -2,3 +2,5 @@
 
 # 14 - Object and Arrays - Reference VS Copy
 keywords: .
+
+view demo [here](https://gnovo.github.io/JS30/14-JavaScript_References_VS_Copying/index.html)

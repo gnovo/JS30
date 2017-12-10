@@ -2,3 +2,5 @@
 
 # 04 - Array Cardio Day 1
 keywords: console.table(), filter(), map(), sort(), reduce()
+
+view demo [here](https://gnovo.github.io/JS30/04-Array_Cardio_Day_1/index.html)

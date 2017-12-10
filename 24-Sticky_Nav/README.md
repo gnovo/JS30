@@ -2,3 +2,5 @@
 
 # 24 - Sticky Nav
 keywords: .
+
+view demo [here](https://gnovo.github.io/JS30/24-Sticky_Nav/index.html)

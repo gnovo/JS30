@@ -2,3 +2,5 @@
 
 # 17 - Sorting Band Names without Articles
 keywords: .
+
+view demo [here](https://gnovo.github.io/JS30/17-Sorting_Band_Names_without_Articles/index.html)

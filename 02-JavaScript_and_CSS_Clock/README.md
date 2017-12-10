@@ -2,3 +2,5 @@
 
 # 02 - JavaScript and CSS Clock
 keywords: pointers rotate animation, get times, changing pointer positions.
+
+view demo [here](https://gnovo.github.io/JS30/02-JavaScript_and_CSS_Clock/index.html)

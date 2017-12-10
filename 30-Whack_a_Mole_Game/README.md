@@ -2,3 +2,5 @@
 
 # 30 - Whack a Mole Game
 keywords: .
+
+view demo [here](https://gnovo.github.io/JS30/30-Whack_a_Mole_Game/index.html)

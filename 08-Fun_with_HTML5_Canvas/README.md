@@ -2,3 +2,5 @@
 
 # 08 - Fun with HTML5 Canvas
 keywords: Canvas, HSL, mouse events.
+
+view demo [here](https://gnovo.github.io/JS30/08-Fun_with_HTML5_Canvas/index.html)

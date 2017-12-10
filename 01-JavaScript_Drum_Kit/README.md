@@ -2,3 +2,5 @@
 
 # 01 - Drum Kit
 keywords: key event listener, audio play and toggle class.
+
+view demo [here](https://gnovo.github.io/JS30/01-JavaScript_Drum_Kit/index.html)

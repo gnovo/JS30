@@ -2,3 +2,5 @@
 
 # 22 - Follow Along Link Highlighter
 keywords: .
+
+view demo [here](https://gnovo.github.io/JS30/22-Follow_Along_Link_Highlighter/index.html)

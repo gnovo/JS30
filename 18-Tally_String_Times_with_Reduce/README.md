@@ -2,3 +2,5 @@
 
 # 18 - Tally String Times with Reduce
 keywords: .
+
+view demo [here](https://gnovo.github.io/JS30/18-Tally_String_Times_with_Reduce/index.html)

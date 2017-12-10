@@ -2,3 +2,5 @@
 
 # 21 - Geolocation based Speedometer and Compass
 keywords: .
+
+view demo [here](https://gnovo.github.io/JS30/21-Geolocation_based_Speedometer_and_Compass/index.html)

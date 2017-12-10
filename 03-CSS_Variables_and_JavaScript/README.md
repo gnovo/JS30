@@ -2,3 +2,5 @@
 
 # 03 - CSS Variables and JavaScript
 keywords: data-attribute, :root, CSS variables definition (var(--xxx), filter: blur(), change event, and mousemove event.
+
+view demo [here](https://gnovo.github.io/JS30/03-CSS_Variables_and_JavaScript/index.html)
