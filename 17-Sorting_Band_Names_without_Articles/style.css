@@ -1,9 +1,10 @@
 body {
   margin: 0;
-  font-family: sans-serif;
-  background: url("https://source.unsplash.com/nDqA4d5NL0k/2000x2000");
+  font-family: 'Helvetica neue', sans-serif;
+  font-weight: 100;
+  background: url("images/17_06.jpg");
+  font-size: 30px;
   background-size: cover;
-  display: flex;
   align-items: center;
   min-height: 100vh;
 }
@@ -22,6 +23,10 @@ body {
 }
 #bands li:last-child {
   border-bottom: 0;
+}
+h2 {
+  color: black;
+  text-align: center;
 }
 a {
   color: #ffc600;
