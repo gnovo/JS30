@@ -1,6 +1,9 @@
 html {
   color:black;
-  font-family: sans-serif;
+  font-family: sans-serif;  
+  cursor: url('sun.png'), default;
+  text-align:center; 
+  background-color:#bdc3c7; 
 }
 body {
   margin: 0;
