@@ -1,8 +1,14 @@
-# JS30
+![](https://javascript30.com/images/JS3-social-share.png)
 
-> This is a JavaScript practice with [JavaScript30](https://javascript30.com/) by [Wes Bos](https://github.com/wesbos) without any frameworks, compilers, boilerplate, or libraries.
+# JavaScript30
 
-view demos [here](https://gnovo.github.io/JS30/)
+This is a JavaScript practice with [JavaScript30](https://javascript30.com/) by [Wes Bos](https://github.com/wesbos).
+
+There are six major topics covered throughout the course: Audio + Video, DOM & Interface, Friends with CSS, Fun + Experimental, Fundamentals, and Hardware Access.
+
+You can view the demos [here](https://gnovo.github.io/JS30/).
+
+## Table Of Contents
 
 1. [JavaScript Drum Kit](https://github.com/gnovo/JS30/blob/master/01-JavaScript_Drum_Kit/README.md)
 2. [JavaScript and CSS Clock](https://github.com/gnovo/JS30/blob/master/02-JavaScript_and_CSS_Clock/README.md)
@@ -28,7 +34,7 @@ view demos [here](https://gnovo.github.io/JS30/)
 22. [Follow Along Link Highlighter](https://github.com/gnovo/JS30/blob/master/22-Follow_Along_Link_Highlighter/README.md)
 23. [Speech Synthesis](https://github.com/gnovo/JS30/blob/master/23-Speech_Synthesis/README.md)
 24. [Sticky Nav](https://github.com/gnovo/JS30/blob/master/24-Sticky_Nav/README.md)
-25. [Event Capture, Propagation, Bubbling and Once](https://github.com/gnovo/JS30/blob/master/25-Event Capture_Propagation_Bubbling_and_Once/README.md)
+25. [Event_Capture_Propagation_Bubbling_and_Once](https://github.com/gnovo/JS30/blob/master/25-Event Capture_Propagation_Bubbling_and_Once/README.md)
 26. [Stripe Follow Along Dropdown](https://github.com/gnovo/JS30/blob/master/26-Stripe_Follow_Along_Dropdown/README.md)
 27. [Click and Drag to Scroll](https://github.com/gnovo/JS30/blob/master/27-Click_and_Drag_to_Scroll/README.md)
 28. [Video Speed Controller UI](https://github.com/gnovo/JS30/blob/master/28-Video_Speed_Controller_UI/README.md)
