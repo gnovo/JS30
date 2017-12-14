@@ -10,33 +10,54 @@
   </head>
 
   <body>
-    <div class="photobooth">
-      <div class="controls">
-        <button onClick="takePhoto()">Take Photo</button>
-<!--       <div class="rgb">
-        <label for="rmin">Red Min:</label>
-        <input type="range" min=0 max=255 name="rmin">
-        <label for="rmax">Red Max:</label>
-        <input type="range" min=0 max=255 name="rmax">
-        <br>
-        <label for="gmin">Green Min:</label>
-        <input type="range" min=0 max=255 name="gmin">
-        <label for="gmax">Green Max:</label>
-        <input type="range" min=0 max=255 name="gmax">
-        <br>
-        <label for="bmin">Blue Min:</label>
-        <input type="range" min=0 max=255 name="bmin">
-        <label for="bmax">Blue Max:</label>
-        <input type="range" min=0 max=255 name="bmax">
-      </div> -->
+    <h2>Unreal Webcam Fun</h2>
+    <div class="photobooth-border">
+      <div class="photobooth">
+        <div>
+          <p>""</p>
+        </div>
+
+        <canvas class="photo"></canvas>
+        <video class="player"></video>
+
+        <div class="under-photo">
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Effects</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#home">Home</a>
+              <a href="#about">About</a>
+              <a href="#contact">Contact</a>
+            </div>
+          </div>
+
+          <div class="camera">
+            <img id="camera.png" src="images/camera.png" button onClick="takePhoto()">
+          </div>
+
+          <div class="controls">
+            <div class="rgb">
+              <label for="rmin">Red Min:</label>
+              <input type="range" min=0 max=255 name="rmin">
+              <label for="rmax">Red Max:</label>
+              <input type="range" min=0 max=255 name="rmax">
+              <br>
+              <label for="gmin">Green Min:</label>
+              <input type="range" min=0 max=255 name="gmin">
+              <label for="gmax">Green Max:</label>
+              <input type="range" min=0 max=255 name="gmax">
+              <br>
+              <label for="bmin">Blue Min:</label>
+              <input type="range" min=0 max=255 name="bmin">
+              <label for="bmax">Blue Max:</label>
+              <input type="range" min=0 max=255 name="bmax">
+            </div>
+          </div>
+        </div>
       </div>
-
-      <canvas class="photo"></canvas>
-      <video class="player"></video>
-      <div class="strip"></div>
     </div>
+      <div class="strip"></div>
 
-    <audio class="snap" src="http://wesbos.com/demos/photobooth/snap.mp3" hidden></audio> 
+    <audio class="snap" src="sounds/snap.mp3" hidden></audio> 
 
     <script src="scripts.js"></script>
   </body>
