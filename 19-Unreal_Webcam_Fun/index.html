@@ -21,20 +21,25 @@
         <video class="player"></video>
 
         <div class="under-photo">
-          <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Effects</button>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="#home">Home</a>
-              <a href="#about">About</a>
-              <a href="#contact">Contact</a>
-            </div>
+          <div class="effect-menu">
+            <form>
+              <select id="effect">
+                <option value="Normal">Normal</option>
+                <option value="Grayscale">Grayscale</option>
+                <option value="Red Effect">Red Effect</option>
+                <option value="Green Effect">Green Effect</option>
+                <option value="Blue Effect">Blue Effect</option>
+                <option value="RGB Split">RGB Split</option>
+                <option value="Green Screen">Green Screen</option>
+              </select>
+            </form>
           </div>
 
           <div class="camera">
             <img id="camera.png" src="images/camera.png" button onClick="takePhoto()">
           </div>
 
-          <div class="controls">
+          <div class="controls-greenscreen">
             <div class="rgb">
               <label for="rmin">Red Min:</label>
               <input type="range" min=0 max=255 name="rmin">
@@ -50,6 +55,13 @@
               <input type="range" min=0 max=255 name="bmin">
               <label for="bmax">Blue Max:</label>
               <input type="range" min=0 max=255 name="bmax">
+            </div>
+          </div>
+
+          <div class="controls-ghosting">
+            <div class="ghosting">
+              <label for="ghostinglevel">Ghosting</label>
+              <input type="range" min=1 max=10 name="ghostinglevel">
             </div>
           </div>
         </div>

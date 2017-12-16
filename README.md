@@ -10,7 +10,6 @@ You can view the demos [here](https://gnovo.github.io/JS30/).
 
 ## Table Of Contents
 
-<center>
 | DAY | README | DEMO | TAGS |
 | :---: | --- | :---: | --- |
 | 01 | [JavaScript Drum Kit](https://github.com/gnovo/JS30/blob/master/01-JavaScript_Drum_Kit/README.md) | [demo](https://gnovo.github.io/JS30/01-JavaScript_Drum_Kit/index.html) | audio + video, dom & interface, friends with css |
@@ -43,4 +42,3 @@ You can view the demos [here](https://gnovo.github.io/JS30/).
 | 28 | [Video Speed Controller UI](https://github.com/gnovo/JS30/blob/master/28-Video_Speed_Controller_UI/README.md) | [demo](https://gnovo.github.io/JS30/28-Video_Speed_Controller_UI/index.html) | audio + video, fun + experimental |
 | 29 | [Countdown Clock](https://github.com/gnovo/JS30/blob/master/29-Countdown_Clock/README.md) | [demo](https://gnovo.github.io/JS30/29-Countdown_Clock/index.html) | friends with css, fundamentals |
 | 30 | [Whack A Mole Game](https://github.com/gnovo/JS30/blob/master/30-Whack_a_Mole_Game/README.md) | [demo](https://gnovo.github.io/JS30/30-Whack_a_Mole_Game/index.html) | dom & interface, friends with css, fun + experimental |
-</center>
