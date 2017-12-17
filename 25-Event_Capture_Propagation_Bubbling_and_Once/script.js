@@ -12,6 +12,7 @@ divs.forEach(div => div.addEventListener('click', logText, {
   once: true
 }));
 
+// button will only run once
 button.addEventListener('click', () => {
   console.log('Click!!!');
 }, {

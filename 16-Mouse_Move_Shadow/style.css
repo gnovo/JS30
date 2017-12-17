@@ -1,7 +1,7 @@
 html {
   color:black;
   font-family: sans-serif;  
-  cursor: url('sun.png'), default;
+  cursor: url('images/sun.png'), default;
   text-align:center; 
   background-color:#bdc3c7; 
 }
