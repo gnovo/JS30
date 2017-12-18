@@ -1,3 +1,62 @@
-html, body {
-  margin:0;
+:root {
+  --canvas-background: #FFF;
+  --brush-color: #000;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  overflow: hidden;
+  text-align: center;
+  background: gray;
+}
+h2 {
+  font-family: 'helvetica neue', sans-serif;
+  color: white;
+  font-weight: 100;
+  font-size: 40px;
+}
+select {
+  display: block;
+  margin: 0 auto;
+  background: rgb(33,122,128);
+  color: white;
+  font-size: 15px;
+}
+label {
+  vertical-align: top;
+  font-size: 20px;
+  margin-left: 20px; 
+}
+input {
+  width:100px;
+  margin-right: 20px;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(33,122,128,0.7);
+  color: white;
+  margin-top: 20px;
+  margin-bottom: -30px;
+  border: 2px solid rgb(33,92,94);
+}
+button:hover { background-color: rgba(33,122,128,1); }
+canvas { background: var(--canvas-background); }
+.hl { color: var(--canvas-background); }
+.controls { margin-bottom: 50px; }
+
+label span {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  border: none;
+  color: rgba(0, 0, 0, 0);
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: 1px 0 0 rgb(217,31,38) , 2px 0 0 rgb(226,91,14) , 3px 0 0 rgb(245,221,8) , 4px 0 0 rgb(5,148,68) , 5px 0 0 rgb(2,135,206);
 }

@@ -1,24 +1,47 @@
-html {
-  font-size: 10px;
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
-  background-size: cover;
-}
+html { font-size: 10px; }
 body,html {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Helvetica neue', sans-serif;
 }
-
+body {
+  font-weight: 100;
+  font-size: 30px;
+  background-size: cover;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+h2 {
+  color: rgb(235, 73, 93);
+  text-align: center;
+}
+.animation {
+  animation-duration: 0.1s;
+  animation-name: rollDrum;
+}
+@keyframes rollDrum {
+  from {
+    transform-origin: 50% 50%;
+    transform: scale(0.99);
+  }
+  to {
+    transform-origin: 50% 50%;
+    transform: scale(1.05);
+  }
+}
+.drum svg {
+  display: block;
+  margin: auto;
+  height: 400px;
+}
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
   align-items: center;
   justify-content: center;
 }
-
 .key {
-  border: .4rem solid black;
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
@@ -26,25 +49,21 @@ body,html {
   transition: all .07s ease;
   width: 10rem;
   text-align: center;
-  color: white;
-  background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+  color: rgb(235, 73, 93);
+  background: rgba(0,0,0,0.15);
 }
-
 .playing {
   transform: scale(1.1);
   border-color: #ffc600;
   box-shadow: 0 0 1rem #ffc600;
 }
-
 kbd {
   display: block;
-  font-size: 4rem;
+  font-size: 3rem;
 }
-
 .sound {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #ffc600;
+  color: rgb(92, 92, 92);
 }

@@ -5,6 +5,8 @@ body {
   font-family: 'helvetica neue', sans-serif;
   font-weight: 100;
   font-size: 50px;
+  margin: 0;
+  overflow: hidden;
 }
 #psst {
   font-size: 25px;
@@ -17,4 +19,8 @@ body {
   font-size: 80px;
   font-weight: bold;
   text-align: center;
+}
+.konami-character {
+  position: absolute;
+  transform-origin: center;
 }

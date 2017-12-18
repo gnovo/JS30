@@ -12,7 +12,6 @@
 
   <body>
     <h1>Whack-a-mole!</h1>
-    <!-- <h1>Whack-a-mole!<span class="score">0</span><span id="high-score">0</span></h1> -->
 
     <table>
       <tr>
@@ -25,9 +24,7 @@
       </tr>
     </table>
 
-    <!-- <div class="instructions"></div> -->
-
-    <div class="game">
+    <div class="game" id="game">
       <div class="hole hole1">
         <div class="mole"></div>
       </div>
@@ -46,9 +43,19 @@
       <div class="hole hole6">
         <div class="mole"></div>
       </div>
+        <img id="instructions-img" src="images/hawk_sad.png" alt="Sad Saibot">
+        <p id="instructions">Saibot, the intern has once again been captured by a labour of vicious moles.<br>Whack 5 or more moles to save him!</p>
+
+        <img id="win-img" src="images/hawk_happy.png" alt="Happy Saibot">
+        <p id="win">THANK YOU FOR SAVING ME!</p>
+
+        <img id="lose-img" src="images/hawk_angry.png" alt="Angry Saibot">
+        <p id="lose">TRY AGAIN!</p>
     </div>
   
     <button onClick="startGame()">START</button>
+    <h2 class="instructions" style="margin-top: -20px">INSTRUCTIONS</h2>
+    <!-- <button onClick="instructions()" style="margin-top: -20px">INSTRUCTIONS</button> -->
 
     <audio class="hammer-sound" src="sounds/pound.mp3" hidden></audio>
 

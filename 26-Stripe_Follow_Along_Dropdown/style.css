@@ -2,9 +2,7 @@ html {
   box-sizing: border-box;
   font-family: "Arial Rounded MT Bold","Helvetica Rounded",Arial,sans-serif
 }
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+*, *:before, *:after { box-sizing: inherit; }
 body {
   margin: 0;
   min-height: 100vh;
@@ -17,6 +15,9 @@ body {
 h2 {
   margin-top: 0;
   padding-top: .8em;
+  text-align: center;
+  color: white;
+  font-size: 50px;
 }
 nav {
   position: relative;
@@ -56,12 +57,8 @@ nav ul {
   will-change: opacity;
   display: none;
 }
-.trigger-enter .dropdown {
-  display: block;
-}
-.trigger-enter-active .dropdown {
-  opacity: 1;
-}
+.trigger-enter .dropdown { display: block; }
+.trigger-enter-active .dropdown { opacity: 1; }
 .dropdownBackground {
   width:100px;
   height:100px;
@@ -75,9 +72,7 @@ nav ul {
   justify-content: center;
   opacity:0;
 }
-.dropdownBackground.open {
-  opacity: 1;
-}
+.dropdownBackground.open { opacity: 1; }
 .arrow {
   position: absolute;
   width:20px;
@@ -97,9 +92,7 @@ nav ul {
   float:left;
   margin-right:20px;
 }
-.courses {
-  min-width:300px;
-}
+.courses { min-width:300px; }
 .courses li {
   padding: 10px 0;
   display: block;

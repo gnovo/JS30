@@ -10,7 +10,22 @@
   </head>
 
   <body>
-    <canvas id="draw" width="800" height="800"></canvas>
+    <h2>Fun with HTML5 Canvas</h2>
+
+    <div class="controls">
+      <label for="canvas-background">Canvas Background</label>
+      <input id="canvas-background" type="color" name="canvas-background" value="#FFFFFF">
+
+      <label for="brush-color">Brush Color</label>
+      <input id="brush-color" type="color" name="brush-color" value="#000000">
+
+      <label for="rainbow-mode"><span>Rainbow mode</span></label>
+      <input id="rainbow-mode" type="range" name="rainbow-mode" min="0" max="1" value="0">
+
+      <button class="clear" button onClick="clearCanvas()">Clear</button>
+    </div>
+    
+    <canvas id="draw" style="border:1px solid #000000;">
 
     <script src="html5_canvas.js"></script>
   </body>
