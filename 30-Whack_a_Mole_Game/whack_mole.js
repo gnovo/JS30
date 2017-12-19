@@ -63,22 +63,22 @@ function startGame() {
     document.getElementById("high-score").innerHTML = localStorage.getItem("highscore");
   }
 
-  // if (score >= 5) {
-  //   instructionsScenario.style.display = 'none';
-  //   winScenario.style.display = 'display';
-  //   loseScenario.style.display = 'none';
-  // } else {
-  //   instructionsScenario.style.display = 'none';
-  //   winScenario.style.display = 'none';
-  //   loseScenario.style.display = 'block';
-  // }
-
   instructionsScenario.style.display = 'none';
   instructionsScenarioImg.style.display = 'none';
+
+  winScenario.style.display = 'none';
+  winScenarioImg.style.display = 'none';
+
+  loseScenario.style.display = 'none';
+  loseScenarioImg.style.display = 'none';
+
   game.style.background = "url(images/grass.png) bottom center no-repeat";
 
   peep();
-  setTimeout(() => timeUp = true, 10000)
+  setTimeout(() => {
+    timeUp = true;
+    scenario();
+  }, 10000)
 }
 
 function bonk(e) {
@@ -87,6 +87,7 @@ function bonk(e) {
   highScore();
   this.parentNode.classList.remove('up');
   scoreBoard.textContent = score;
+  hammerSound.currentTime = 0; // restart audio
   hammerSound.play();
 }
 
@@ -118,15 +119,28 @@ instructionsButton.addEventListener('click', function (event) {
   }
 });
 
-// function scenario() {
-//   if (timeUp === true && score >= 3) {
-//     instructionsScenario.style.display = 'none';
-//         winScenario.style.display = 'block';
-//         winScenarioImg.style.display = 'block';
-//     loseScenario.style.display = 'none';
-//   } else {
-//     instructionsScenario.style.display = 'none';
-//     winScenario.style.display = 'none';
-//     loseScenario.style.display = 'block';
-//   }
-// }
+function scenario() {
+  if (timeUp === true && score >= 10) {
+    instructionsScenario.style.display = 'none';
+    instructionsScenarioImg.style.display = 'none';
+
+    winScenario.style.display = 'block';
+    winScenarioImg.style.display = 'block';
+
+    loseScenario.style.display = 'none';
+    loseScenarioImg.style.display = 'none';
+
+    game.style.background = "rgba(255,255,255,0.8)";
+  } else {
+    instructionsScenario.style.display = 'none';
+    instructionsScenarioImg.style.display = 'none';
+
+    winScenario.style.display = 'none';
+    winScenarioImg.style.display = 'none';
+
+    loseScenario.style.display = 'block';
+    loseScenarioImg.style.display = 'block';
+
+    game.style.background = "rgba(255,255,255,0.8)";
+  }
+};

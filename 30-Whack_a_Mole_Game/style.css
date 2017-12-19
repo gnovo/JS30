@@ -3,28 +3,37 @@ html {
   font-size: 10px;
   background: #ffc600;
 }
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+*, *:before, *:after { box-sizing: inherit; }
 body {
   padding: 0;
   margin:0;
   font-family: 'Amatic SC', cursive;
-}
-h1 {
-  text-align: center;
-  font-size: 10rem;
-  line-height:1;
-  margin-bottom: 0;
+  color: black;
 }
 table {
   font-size: 40px;
   text-align: center;
   margin: auto;
 }
-td {
-  width: 150px;
+td { width: 150px; }
+h1 {
+  text-align: center;
+  font-size: 10rem;
+  line-height:1;
+  margin-bottom: 0;
 }
+h2 {
+  font-family: "Arial";
+  display: block;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  margin-bottom: 0;
+  margin-top: -30px
+  padding: 10px 12px;
+  text-align: center;
+}
+h2:hover { text-shadow: 1px 1px gray; }
 button {
   -moz-user-select: none;
   -ms-touch-action: manipulation;
@@ -50,17 +59,13 @@ button {
   white-space: nowrap;
   background-color: transparent;
 }
-
-button:hover {
- text-shadow: 1px 1px gray;
-}
+button:hover { text-shadow: 1px 1px gray; }
 .score, #high-score {
   background:rgba(255,255,255,0.2);
   padding:0 3rem;
   line-height:1;
   border-radius:1rem;
 }
-
 .game {
   width:800px;
   height:500px;
@@ -68,19 +73,15 @@ button:hover {
   flex-wrap:wrap;
   margin:0 auto;
   background: rgba(255,255,255,0.8);
-  /*background: url(images/grass.png) bottom center no-repeat;*/
   padding-bottom: 50px;
   border: 5px solid black;
 }
-
 .hole {
   flex: 1 0 33.33%;
   overflow: hidden;
   position: relative;
   cursor: url('images/mallet_small.png'), default;
-  /*cursor: url('images/mallet_pound.png'), default;*/
 }
-
 .hole:after {
   display: block;
   background: url(images/dirt.png) bottom center no-repeat;
@@ -92,7 +93,6 @@ button:hover {
   z-index: 2;
   bottom:-10px;
 }
-
 .mole {
   background:url('images/mole_happy.png') bottom center no-repeat;
   background-size:50%;
@@ -102,36 +102,10 @@ button:hover {
   height: 100%;
   transition:all 0.4s;
 }
-
-.mole.up {
-  background:url('images/mole_angry.png') bottom center no-repeat;
-}
-.hole.up .mole {
+.hole.up .mole { 
   top:0;
+  cursor:url('images/mallet_pound.png'), default;
 }
-
-/*.instructions, .win, .lose {
-  font-size: 50px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  width: 12em;
-}
-.instructions-img {
-  margin-top: 20px;
-}
-.win-img, .lose-img {
-  margin-top: 90px;
-}
-.instructions-img, .win-img, .lose-img {
-  height: 240px;
-  width: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}*/
-
 #win, #lose {
   font-size: 50px;
   text-align: center;
@@ -141,24 +115,17 @@ button:hover {
   width: 12em;
   display: none;
 }
-#instructions-img {
-  margin-top: 20px;
-}
-#win-img, #lose-img {
-  margin-top: 90px;
-}
-#win-img, #lose-img {
+#instructions-img { margin-top: 20px; }
+#win-img, #lose-img { margin-top: 90px; }
+#win-img, #lose-img, #instructions-img {
   height: 240px;
   width: auto;
   display: none;
   margin-left: auto;
   margin-right: auto;
 }
-
-.instructions {
-  cursor: pointer
-}
-
+#instructions-img { display: block; }
+.instructions { cursor: pointer; }
 #instructions {
   font-size: 50px;
   text-align: center;
@@ -167,31 +134,4 @@ button:hover {
   margin-top: 20px;
   width: 12em;
   display: block;
-}
-#instructions-img {
-  height: 240px;
-  width: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
-
-h2 {
-  font-family: "Arial";
-  color: black;
-  display: block;
-  font-size: 28px;
-  font-weight: 400;
-  line-height: 1.42857143;
-  margin-bottom: 0;
-  margin-top: -30px
-  padding: 10px 12px;
-  text-align: center;
-}
-
-h2:hover {
- text-shadow: 1px 1px gray;
 }
